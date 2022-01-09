@@ -11,3 +11,5 @@ permalink: /Jan8th/
 
 
 Hey guys, what's up! This is our first blog. We'll be posting them as LaTex docs for now!
+
+Note from Pramana - Stay tuned for more! I can't guarantee daily, but very frequently I will upload my notes from the day.
