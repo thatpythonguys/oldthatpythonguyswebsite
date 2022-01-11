@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Thoughts on 1/08/22"
+title:  "Thoughts on 1/10/22"
 date:   2022-01-10 12:18:26 -0500
-categories: AIME
+categories: AIME geo combinatorics
 permalink: /Jan10th/
 ---
 
