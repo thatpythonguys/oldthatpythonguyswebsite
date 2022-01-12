@@ -6,7 +6,7 @@ categories:
 tags: [aime, geo, venn diagram, sets, recursion, trig]
 permalink: /Jan10th/
 ---
-  <iframe src="/assets\img\Math_Diary_01_11_21.pdf" width="100%" height="800px">
+  <iframe src="/assets\img\Math_Diary_01_11_22.pdf" width="100%" height="800px">
   </iframe>
 
 More AIME problems from the set I created. There are a few more, but drawing diagrams with asy is terrible.
