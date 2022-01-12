@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: default
 title:  "Thoughts on 1/07/22"
 date:   2020-05-28 12:18:26 -0500
 categories: jekyll update
-permalink: /hello/
+permalink: /Jan7th/
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

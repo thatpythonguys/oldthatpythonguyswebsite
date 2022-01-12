@@ -1,8 +1,9 @@
 ---
-layout: post
+layout: default
 title:  "Thoughts on 1/09/22"
 date:   2022-01-09 12:18:26 -0500
 categories: [napkin, linalg, oly]
+tags: napkin linalg oly
 permalink: /Jan9th/
 ---
 
@@ -10,3 +11,10 @@ permalink: /Jan9th/
   </iframe>
 
 New stuff, late night math grinding.
+
+<p>
+Tags:
+{% for tag in site.tags %}
+  {{ tag[0] }}
+{% endfor %}
+</p>
