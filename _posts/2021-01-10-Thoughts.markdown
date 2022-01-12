@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Thoughts on 1/10/22"
+title:  "Blog Post 1/10/22 - AIME Problems"
 date:   2022-01-10 12:18:26 -0500
 categories: [aime, geo, combinatorics]
 permalink: /Jan10th/
