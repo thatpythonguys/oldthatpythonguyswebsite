@@ -6,7 +6,7 @@ categories:
 tags: [aime, combinatorics, vandermonde, hockey stick, geo, incircle, expected value]
 permalink: /Jan12th/
 ---
-  <iframe src="/assets\img\Math_Diary_01_12_21.pdf" width="100%" height="800px">
+  <iframe src="/assets\img\Math_Diary_01_12_22.pdf" width="100%" height="800px">
   </iframe>
 
 I failed most of these. I need to work on getting better intuition for these problems.
