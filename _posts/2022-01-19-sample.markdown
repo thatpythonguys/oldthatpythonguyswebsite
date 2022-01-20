@@ -2,7 +2,7 @@
 layout: default
 title:  "Blog Post 01/19/22 - Notes on 3Blue1Brown Lecture"
 date:   2022-01-19 12:18:26 -0500
-categories: 
+categories:
 tags: [calculus, probability, problem solving, trig, angle chasing]
 permalink: /Jan19th/
 ---
@@ -14,8 +14,7 @@ General notes on a cool lecture by the goat 3Blue1Brown. Video link is in the pd
 
 <p>
 Tags:
-{% for tag in site.tags %}
-  {{ tag[0] }}
+{% for tag in page.tags %}
+  {{ tag }}
 {% endfor %}
 </p>
- 

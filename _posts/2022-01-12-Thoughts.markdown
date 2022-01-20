@@ -2,7 +2,7 @@
 layout: default
 title:  "Blog Post 01/12/22 - Remaining AIME Problems; NICE Journal"
 date:   2022-01-12 12:18:26 -0500
-categories: 
+categories:
 tags: [aime, combinatorics, vandermonde, hockey stick, geo, incircle, expected value]
 permalink: /Jan12th/
 ---
@@ -10,12 +10,11 @@ permalink: /Jan12th/
   </iframe>
 
 I failed most of these. I need to work on getting better intuition for these problems.
-The first one was fun to solve though. 
+The first one was fun to solve though.
 
 <p>
 Tags:
-{% for tag in site.tags %}
-  {{ tag[0] }}
+{% for tag in page.tags %}
+  {{ tag }}
 {% endfor %}
 </p>
- 

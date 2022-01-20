@@ -14,7 +14,7 @@ New stuff, late night math grinding.
 
 <p>
 Tags:
-{% for tag in site.tags %}
-  {{ tag[0] }}
+{% for tag in page.tags %}
+  {{ tag }}
 {% endfor %}
 </p>

@@ -2,7 +2,7 @@
 layout: default
 title:  "Blog Post 1/10/22 - AIME Problems"
 date:   2022-01-10 12:18:26 -0500
-categories: 
+categories:
 tags: [aime, geo, combinatorics]
 permalink: /Jan10th/
 ---
@@ -13,8 +13,7 @@ A few AIME problems to prepare. It is a crime that MAA still haven't released re
 
 <p>
 Tags:
-{% for tag in site.tags %}
-  {{ tag[0] }}
+{% for tag in page.tags %}
+  {{ tag }}
 {% endfor %}
 </p>
- 
