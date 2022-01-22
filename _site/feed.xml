@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-20T15:17:43-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ThatPythonGuys</title><subtitle>A place to learn AMC12.</subtitle><entry><title type="html">Blog Post 01/19/22 - Notes on 3Blue1Brown Lecture</title><link href="http://localhost:4000/Jan19th/" rel="alternate" type="text/html" title="Blog Post 01/19/22 - Notes on 3Blue1Brown Lecture" /><published>2022-01-19T11:18:26-06:00</published><updated>2022-01-19T11:18:26-06:00</updated><id>http://localhost:4000/sample</id><content type="html" xml:base="http://localhost:4000/Jan19th/">&lt;p&gt;General notes on a cool lecture by the goat 3Blue1Brown. Video link is in the pdf if you want to check it out.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-01-21T21:10:36-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ThatPythonGuys</title><subtitle>A place to learn AMC12.</subtitle><entry><title type="html">Blog Post 01/20/22 - IMTC Winter 2022 Sample Test</title><link href="http://localhost:4000/Jan20th/" rel="alternate" type="text/html" title="Blog Post 01/20/22 - IMTC Winter 2022 Sample Test" /><published>2022-01-20T11:18:26-06:00</published><updated>2022-01-20T11:18:26-06:00</updated><id>http://localhost:4000/title</id><content type="html" xml:base="http://localhost:4000/Jan20th/">&lt;p&gt;IMTC Problems! Super fun competiton, and while this was just the sample contest, the problems were very high quality.
+I focused mostly on the geo problems as that is what I’ve been pracitcing recently. I’m struggling at the algebre and combinatorics ones right now.&lt;/p&gt;
+
+&lt;iframe src=&quot;\assets\img\Math_Diary_01_20_22.pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;
+  &lt;/iframe&gt;
+
+&lt;p&gt;
+Tags:
+
+  imtc
+
+  mock
+
+  aime
+
+  geo
+
+  number theory
+
+  polynomial
+
+  newtons sums
+
+  angle chasing
+
+  trig
+
+&lt;/p&gt;</content><author><name></name></author><category term="imtc" /><category term="mock" /><category term="aime" /><category term="geo" /><category term="number theory" /><category term="polynomial" /><category term="newtons sums" /><category term="angle chasing" /><category term="trig" /><summary type="html">IMTC Problems! Super fun competiton, and while this was just the sample contest, the problems were very high quality. I focused mostly on the geo problems as that is what I’ve been pracitcing recently. I’m struggling at the algebre and combinatorics ones right now.</summary></entry><entry><title type="html">Blog Post 01/19/22 - Notes on 3Blue1Brown Lecture</title><link href="http://localhost:4000/Jan19th/" rel="alternate" type="text/html" title="Blog Post 01/19/22 - Notes on 3Blue1Brown Lecture" /><published>2022-01-19T11:18:26-06:00</published><updated>2022-01-19T11:18:26-06:00</updated><id>http://localhost:4000/sample</id><content type="html" xml:base="http://localhost:4000/Jan19th/">&lt;p&gt;General notes on a cool lecture by the goat 3Blue1Brown. Video link is in the pdf if you want to check it out.&lt;/p&gt;
 
 &lt;iframe src=&quot;/assets\img\Math_Diary_01_19_22.pdf&quot; width=&quot;100%&quot; height=&quot;800px&quot;&gt;
   &lt;/iframe&gt;
