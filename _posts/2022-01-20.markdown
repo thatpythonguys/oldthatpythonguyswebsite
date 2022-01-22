@@ -1,0 +1,21 @@
+---
+layout: default
+title:  "Blog Post 01/20/22 - AIME Problems"
+date:   2022-01-20 12:18:26 -0500
+categories: 
+tags: [imtc, mock, aime, geo, number theory, polynomial, newtons sums, angle chasing, trig]
+permalink: /Jan20th/
+---
+IMTC Problems! Super fun competiton, and while this was just the sample contest, the problems were very high quality.
+I focused mostly on the geo problems as that is what I've been pracitcing recently. I'm struggling at the algebre and combinatorics ones right now.
+
+  <iframe src="/assets\img\2022_01_20_Math_Diary.pdf" width="100%" height="800px">
+  </iframe>
+
+<p>
+Tags:
+{% for tag in site.tags %}
+  {{ tag[0] }}
+{% endfor %}
+</p>
+ 
