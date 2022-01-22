@@ -14,8 +14,7 @@ I focused mostly on the geo problems as that is what I've been pracitcing recent
 
 <p>
 Tags:
-{% for tag in site.tags %}
-  {{ tag[0] }}
+{% for tag in page.tags %}
+  {{ tag }}
 {% endfor %}
 </p>
- 
