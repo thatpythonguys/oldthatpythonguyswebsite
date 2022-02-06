@@ -6,6 +6,7 @@ categories:
 tags: [AIME]
 permalink: /Feb5th/
 ---
+# My First AIME Mocks!
 I have been very inactive in this diary. I invested most of my time
 in my notes on Real Analysis and Modern Algebra.
 I'll try to publish them soon if I think they are up to standard.
