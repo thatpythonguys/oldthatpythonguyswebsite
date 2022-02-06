@@ -1,0 +1,38 @@
+---
+layout: default
+title:  "Blog Post 02/05/22 - AIME Mock Reflections"
+date:   2022-02-05 12:18:26 -0500
+categories: 
+tags: [AIME]
+permalink: /Feb5th/
+---
+I have been very inactive in this diary. I invested most of my time
+in my notes on Real Analysis and Modern Algebra.
+I'll try to publish them soon if I think they are up to standard.
+
+I participated in two different mock AIMEs today, so it's safe
+to say that my brain is pretty fried. I won't post any write-ups right now
+because neither are finished, but I will link the contests.
+
+The first one I did in the morning was the 
+[IMTC contest](https://imtcontest.org/). 
+15 questions with 3 hours. I answered 7 of them,
+and guessed on 2 more. The first few were quite easy and caused my
+confidence to go up until the last few questions, which killed me.
+
+The second contest was the [TTLM contest](https://tothelimitmaths.org/), which I started in the evening. I was more relaxed doing this,
+I did not even plan on using paper for anything other than the geo
+problems, so I stuck to my whiteboard. I answered 6, and guessed on 1
+more. Again, I started to get stuck on some problems. I will also note
+that the time on this exam was 2 hours compared to the normal
+time period of 3 hours. The questions however seemed easier,
+so it seemed to balance out the difficulty of this exam.
+
+
+<p>
+Tags:
+{% for tag in page.tags %}
+  {{ tag }}
+{% endfor %}
+</p>
+ 
