@@ -29,7 +29,46 @@ that the time on this exam was 2 hours compared to the normal
 time period of 3 hours. The questions however seemed easier,
 so it seemed to balance out the difficulty of this exam.
 
+## LaTeX to Markdown Test
+::: problem
+How many positive integers $n \leq 242$ exist such that the remainders
+when $n$ is divided by $1, 2, 11, 22, 121$ and $242$, respectively, form
+a non-decreasing sequence?
+:::
 
+Denote $n_k$ as taking $n \bmod{k}$. Our series becomes
+$$0, n_2, n_{11}, n_{22}, n_{121}, n$$ We can simply compare consecutive
+terms, and as long as the next one is greater than or equal to the
+previous one, we are good.
+
+It is easy to verify that $n_2 \geq 0, n_{22} \geq n_{11},$ and
+$n_{121} \geq n$ are always true. That leaves us to find examples of
+$n_{11}<n_2$ and $n_{121}<n_{22}$.
+
+When $n=11$, $$n_2=1 > 0 = n_{11}.$$ Past this, $n_{11}$ continues to
+increase, while $n_2$ stays at $0$ or $1$. Even at $n=22$,
+$n_2 = 0 = 0 = n_{11}$. But when $n=33$, $n_2 = 1 > 0 = n_{11}$. We
+conclude that when $n \equiv 11 \pmod{22}$, we have $n_{11}<n_2$. This
+is also easy to verify.
+
+For $n_{121}<n_{22}$, when $n<121$, $n_22$ remains small, while
+$n_{121}$ continues to increase, so all of these numbers should be good.
+When $n=121,$ we have $$n_{22} = 11 > 0 = n_{121}.$$ $n_{22}$ continues
+to increase at the same pace of $n_{121}$ until $n=132$, where
+$$n_{22} = 0 < 11 = n_{121}.$$ Past this, $n_{121}$ continues to
+increase until $n=242$, which is where we would have stopped anyway.
+$$\begin{tabular}{c|c}
+        Condition & Is false... \\ \hline
+        $n_2 \geq 0$ & Never \\
+        $n_{11} \geq n_2$ & $n \equiv 11\bmod{22}$ \\
+        $n_{22} \geq n_{11}$ & Never \\
+        $n_{121} \geq n_{22}$ & $121 \leq n \leq 131$ \\
+        $n_{121} \geq n$ & Never 
+    \end{tabular}$$ There are $11$ $n$ that satisfy
+$n \equiv 11\bmod{22}$, and $11$ $n$ that satisfy $121 \leq n \leq 131$.
+However, don't forget PIE, the number $121$ is counted twice! Therefore
+the $n$ that satisfy the conditions are
+$$242 - (11 + 11 - 1) = \boxed{221}.$$
 <p>
 Tags:
 {% for tag in page.tags %}
