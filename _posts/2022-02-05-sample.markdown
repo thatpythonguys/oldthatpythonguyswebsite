@@ -64,6 +64,7 @@ increase until $n=242$, which is where we would have stopped anyway.
 | $n_{22} \geq n_{11}$  | Never                  |
 | $n_{121} \geq n_{22}$ | $121 \leq n \leq 131$  |
 | $n_{121} \geq n$      | Never                  |
+
 There are $11$ $n$ that satisfy
 $n \equiv 11\bmod{22}$, and $11$ $n$ that satisfy $121 \leq n \leq 131$.
 However, don't forget PIE, the number $121$ is counted twice! Therefore
